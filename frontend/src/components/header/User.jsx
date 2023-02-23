@@ -8,7 +8,7 @@ import { MdOutlineHelpCenter } from 'react-icons/md'
 import { BiLogOut } from 'react-icons/bi'
 
 function User() {
-    const user = true
+    const user = true//false//true
     const [profileOpen, setProfileOpen] = useState(false)
     function close() {
         setProfileOpen(false)
@@ -25,7 +25,7 @@ function User() {
                             <img src='https://www.illumination.com/wp-content/uploads/2019/11/DM_Agnes.png' width="200px" alt="images" />
                         </button>
                         {profileOpen && <div className="openProfile boxItems" onClick={close}>
-                            <Link to='account'>
+                            <Link to='/account'>
                                 <div className="image">
                                     <div className="img">
                                         <img src="https://www.illumination.com/wp-content/uploads/2019/11/DM_Agnes.png" width="200px" alt="images" />

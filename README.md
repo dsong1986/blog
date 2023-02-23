@@ -6,6 +6,11 @@
 
 ## to study
 await &asynch functions 
+use effect
+javascript find
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+
+
 
 npm i react-router-dom
 npm install react-icons 
